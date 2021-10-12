@@ -20,6 +20,6 @@
     "@begonaguereca:registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    "@octo-org/octo-app": "1.0.0"
+    "axios": "^0.23.0"
   }
 }
