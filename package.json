@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/begonaguereca/package#readme",
   "dependencies": {
-    "axios": "^0.23.0"
+    "axios": "^0.23.0",
+    "@begonaguereca/packages": "1.0.0"
   }
 }
