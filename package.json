@@ -18,5 +18,8 @@
   "homepage": "https://github.com/begonaguereca/package#readme",
   "publishConfig": {
     "@begonaguereca:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@octo-org/octo-app": "1.0.0"
   }
 }
