@@ -8,8 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Authenticate GitHub Packages
-        run: npm login --scope=@${{ secrets.PACKAGES_OWNER }} --registry=https://npm.pkg.github.com --username ${{ secrets.PACKAGES_USER }} --password ${{ secrets.PACKAGES_TOKEN }}
-
       - name: Install NPM packages
         run: npm install --packages **
