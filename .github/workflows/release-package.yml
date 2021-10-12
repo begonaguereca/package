@@ -12,3 +12,5 @@ jobs:
         run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
       - name: npm install
         run: npm install
+      - name: test 
+        run: npm install @begonaguereca/package@1.0.0
